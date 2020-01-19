@@ -14,10 +14,12 @@ The results will be written to a json file in format:
 
 ## Running HAR - Human Activity Recognition
 
-### Preparing Data - ```HAR_Data.ipynb```
+### Preparing Data
+```HAR_Data.ipynb```
 This notebook provides functions to segment, plot and save the individual images used in the Tranfer Learning section of this experiment. 
 
-### Transfer Learning - ```Retrain.ipynb```
+### Transfer Learning
+```Retrain.ipynb```
 
 After plotting and formatting of your PPG data you can run the Transfer Learning script that was taken from [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
 
