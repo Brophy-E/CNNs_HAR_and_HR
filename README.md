@@ -6,10 +6,10 @@ The code has been supplied as Jupyter Notebooks and set up to run in Google Cola
 ## Running CNNR - Heart Rate Error
 ```CNN_Recurrent.ipynb```
 
-When you call the RCNN function you can specify Conv-Pooling params which will affect the outcome of your heart rate error. \\
-Your choice of conv-pooling ```filter (cv_k)``` and ```stride (cv_k)``` sizes will be dependent on  ```seq_len``` that changes with you downsampling factors ```dwns_factor```.  You can set these in the ```call_RCNN()``` function\\
+When you call the RCNN function you can specify Conv-Pooling params which will affect the outcome of your heart rate error.
+Your choice of conv-pooling ```filter (cv_k)``` and ```stride (cv_k)``` sizes will be dependent on  ```seq_len``` that changes with you downsampling factors ```dwns_factor```.  You can set these in the ```call_RCNN()``` function
 
-The results will be written to a json file in format: \\
+The results will be written to a json file in format:
 [```batch_size```, ```exercise```, ```downsampled frequency```, ```heart rate error```]
 
 ## Running HAR - Human Activity Recognition
