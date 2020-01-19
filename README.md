@@ -7,7 +7,7 @@ The code has been supplied as Jupyter Notebooks and set up to run in Google Cola
 ```CNN_Recurrent.ipynb```
 
 When you call the RCNN function you can specify Conv-Pooling params which will affect the outcome of your heart rate error.
-Your choice of conv-pooling ```filter (cv_k)``` and ```stride (cv_k)``` sizes will be dependent on  ```seq_len``` that changes with you downsampling factors ```dwns_factor```.  You can set these in the ```call_RCNN()``` function
+Your choice of conv-pooling ```filter (cv_k)``` and ```stride (cv_k)``` sizes will be dependent on  ```seq_len``` that changes with you downsampling factors ```dwns_factor```.  You can set these in the ```call_RCNN()``` function.
 
 The results will be written to a json file in format:
 [```batch_size```, ```exercise```, ```downsampled frequency```, ```heart rate error```]
@@ -20,9 +20,9 @@ This notebook provides functions to segment, plot and save the individual images
 
 ### Transfer Learning
 
-After plotting and formatting of your PPG data you can run the Transfer Learning script that was taken from [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0). \\
+After plotting and formatting of your PPG data you can run the Transfer Learning script that was taken from [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
 
-There is now a simplified notebook available on Google Colaboratory [here](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb). \\
+There is now a simplified notebook available on Google Colaboratory [here](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb).
 
-***Note***: We used the transfer learning script from Tensorflow 1.0, which is now deprecated. The results from the new scripts using Tensorflow 2.0 may vary slightly. \\
+***Note***: We used the transfer learning script from Tensorflow 1.0, which is now deprecated. The results from the new scripts using Tensorflow 2.0 may vary slightly.
 All default parameter values bar one were kept the same. We changed the number of training iterations from a default value of 10,000 to 4,000, this helped minimise overfitting through sufficient convergence of the loss function
