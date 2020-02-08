@@ -8,10 +8,10 @@ You should execute the repo in the following order:
 ```
 1.   Create a directory in Google Drive named 'WristSense'
 2.   Clone this GitHub repository into 'WristSense'
-3.   Run the notebook *Download_Data.ipynb*
-4.   Run the notebook *CNN_Recurrent.ipynb*
-5.   Run the notebook *HAR_Data.ipynb*
-6.   Run the notebook *Transfer_Learning_HAR.ipynb*
+3.   Run the notebook Download_Data.ipynb
+4.   Run the notebook CNN_Recurrent.ipynb
+5.   Run the notebook HAR_Data.ipynb
+6.   Run the notebook Transfer_Learning_HAR.ipynb
 
 ```
 
