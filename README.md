@@ -1,7 +1,24 @@
 # CNNs_HAR_and_HR
 This repository is an artifact for the paper "CNNs for Heart Rate Estimation and Human Activity Recognition in Wrist Worn Sensing Applications" submitted to the WristSense workshop as part of PerCom 2020.
 
-The code has been supplied as Jupyter Notebooks and set up to run in Google Colaboratory. The dataset used is open source and freely available. The data was collected by [D. Jarchi and A. Casson (2017)](https://www.mdpi.com/2306-5729/2/1/1) and downloaded from [PhysioNet](https://physionet.org/content/wrist/1.0.0/).
+The code has been supplied as Jupyter Notebooks and designed to run in Google Colaboratory. The dataset used is open source and freely available. The data was collected by [D. Jarchi and A. Casson (2017)](https://www.mdpi.com/2306-5729/2/1/1) and downloaded from [PhysioNet](https://physionet.org/content/wrist/1.0.0/).
+
+You should execute the repo in the following order:
+
+```
+1.   Create a directory in Google Drive named 'WristSense'
+2.   Clone this GitHub repository into 'WristSense'
+3.   Run the notebook *Download_Data.ipynb*
+4.   Run the notebook *CNN_Recurrent.ipynb*
+5.   Run the notebook *HAR_Data.ipynb*
+6.   Run the notebook *Transfer_Learning_HAR.ipynb*
+
+```
+
+## Downloading the Data
+```Download_Data.ipynb```
+This notebook will download the data necessary to complete the experiments below. It will also create some directories to store your data and results
+
 
 ## Running CNNR - Heart Rate Error
 ```CNN_Recurrent.ipynb```
@@ -19,11 +36,8 @@ The results will be written to a json file in format:
 This notebook provides functions to segment, plot and save the individual images used in the Tranfer Learning section of this experiment. 
 
 ### Transfer Learning
-```Retrain.ipynb```
+```Transfer_Learning_HAR.ipynb```
 
-After plotting and formatting of your PPG data you can run the Transfer Learning script that was taken from [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
+This notebook computes Transfer Learning on a Inception-v3 model pretrained on ImageNet.
 
-There is now a simplified notebook available on Google Colaboratory [here](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb).
 
-***Note***: We used the transfer learning script from Tensorflow 1.0, which is now deprecated. The results from the new scripts using Tensorflow 2.0 may vary slightly.
-All default parameter values bar one were kept the same. We changed the number of training iterations from a default value of 10,000 to 4,000, this helped minimise overfitting through sufficient convergence of the loss function
