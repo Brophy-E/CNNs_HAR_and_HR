@@ -17,6 +17,7 @@ You should execute the repo in the following order:
 
 ## Downloading the Data
 ```Download_Data.ipynb```
+
 This notebook will download the data necessary to complete the experiments below. It will also create some directories to store your data and results
 
 
