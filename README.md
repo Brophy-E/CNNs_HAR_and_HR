@@ -42,3 +42,16 @@ This notebook provides functions to segment, plot and save the individual images
 This notebook computes Transfer Learning on a Inception-v3 model pretrained on ImageNet.
 
 
+## Citation
+
+If you find this repo helpful in any way please cite our paper:
+
+
+    @inproceedings{Brophy2020,
+    author = {Brophy, Eoin and Muehlhausen, Willie and Smeaton, Alan F. and Ward, Tomas},
+    title     = {CNNs for Heart Rate Estimation and Human Activity Recognition in Wrist Worn Sensing Applications},
+    booktitle = {2020 {IEEE} International Conference on Pervasive Computing and Communications,
+               PerCom, Austin, Texas, March 23-27, 2020},
+    publisher = {{IEEE}},
+    year      = {"\noop{3002}forthcoming"}
+    }
