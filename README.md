@@ -44,8 +44,7 @@ This notebook computes Transfer Learning on a Inception-v3 model pretrained on I
 
 ## Citation
 
-If you find this repo helpful in any way please cite our paper:
-
+If you find this repo helpful in any way please cite our forthcoming paper:
 
     @inproceedings{Brophy2020,
     author = {Brophy, Eoin and Muehlhausen, Willie and Smeaton, Alan F. and Ward, Tomas},
@@ -55,3 +54,5 @@ If you find this repo helpful in any way please cite our paper:
     publisher = {{IEEE}},
     year      = {"\noop{3002}forthcoming"}
     }
+
+You should include the following command at the top of your `.bib` file to cite a forthcoming paper: `@preamble{ " \newcommand{\noop}[1]{} " }` 
