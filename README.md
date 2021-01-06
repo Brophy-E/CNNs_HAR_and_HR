@@ -52,7 +52,7 @@ If you find this repo helpful in any way please cite our forthcoming paper:
     booktitle = {2020 {IEEE} International Conference on Pervasive Computing and Communications,
                PerCom, Austin, Texas, March 23-27, 2020},
     publisher = {{IEEE}},
-    year      = {"\noop{3002}forthcoming"}
+    year      = {2020}
     }
 
-You should include the following command at the top of your `.bib` file to cite a forthcoming paper: `@preamble{ " \newcommand{\noop}[1]{} " }` 
+No longer necessary -> You should include the following command at the top of your `.bib` file to cite a forthcoming paper: `@preamble{ " \newcommand{\noop}[1]{} " }` 
