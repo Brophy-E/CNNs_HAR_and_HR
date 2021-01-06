@@ -51,7 +51,7 @@ If you find this repo helpful in any way please cite our forthcoming paper:
     title     = {CNNs for Heart Rate Estimation and Human Activity Recognition in Wrist Worn Sensing Applications},
     booktitle = {2020 {IEEE} International Conference on Pervasive Computing and Communications,
                PerCom, Austin, Texas, March 23-27, 2020},
-    publisher = {{IEEE}},
+    publisher = {{IEEE Computer Society}},
     year      = {2020}
     }
 
